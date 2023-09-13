@@ -1,34 +1,3 @@
-/*const {Pokemon} = require('../db');
-const axios= require('axios');
-const URL= "https://pokeapi.co/api/v2/pokemon"
-
-const getAllPokemons = async (req, res)=>{
-    try {
-        const {data} = await axios(`${URL}`);
-        //if(!data.results.name) throw Error('mensaje de error');
-        const pokemons= data.results.map( (pokemon)=>{ 
-            
-                //id: pokemon.id,
-                name: pokemon.name,
-                //url: pokemon.url
-                // image:pokemon.url.sprites.front_default,
-                // life: pokemon.url.stats.base_stat,
-                //attack:pokemon.url.stats.
-
-            }
-        )
-        return res.status(200).json(pokemons)
-        //const pokemons = data.map(async (pokemon)=>{
-
-
-        
-        
-    } catch (error) {
-        return res.status(404).send(error.message);
-    }
-}
-
-module.exports={getAllPokemons}*/
 const { Pokemon, Type } = require('../db');
 const axios = require('axios');
 const URL = "https://pokeapi.co/api/v2/pokemon?limit=120&offset=0";
