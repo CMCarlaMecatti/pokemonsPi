@@ -1,0 +1,63 @@
+.detail{
+    z-index: 2;
+    width: 100vw;
+    position: relative;
+
+}
+
+.container{
+    
+    background-color: rgb(199, 239, 144, 0.7);
+    height: 550px;
+    width: 390px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 10px;
+    padding-bottom: -5%;
+    
+    
+    }
+    
+.type{
+    padding: 2px;
+    margin:3px;
+    font-size: small;
+}
+    .container:hover {
+        transform: translateY(-20px); /* Mueve la tarjeta hacia arriba cuando el cursor está sobre ella */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.801); /* Aplica una sombra alrededor de la tarjeta */}
+    
+      .content {
+        background: linear-gradient(to right, rgb(179, 213, 183) ,rgb(90, 131, 94));
+        
+        padding: 6px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    
+      }   
+    
+    .background{
+        text-align: center;
+        background: linear-gradient(to right, rgb(150, 201, 156) ,rgb(104, 151, 109));
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }  
+    .name{
+        text-align: center;
+        font-size: 18px;
+        font-weight: lighter;
+        padding: 4px;
+    }
+    
+        
+    .stats > p{
+
+        font-size: small;
+    }
+    
+    .image{
+        width: 200px;
+        height: 250px;
+    }
+    
+    

@@ -1,0 +1,81 @@
+.container {
+    z-index: 1;
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+    width: 100vw;
+}
+
+.button {
+    background: #92CD41;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    padding: 14px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none; 
+    color: white;
+    box-shadow: inset (-6px) (-6px) 0px 0px #1d5c0a;
+
+    &:hover,
+    &:focus {
+        background: #4f9d1b;
+        box-shadow: inset (-9px) (-9px) 0px 0px #4AA52E;
+        color: antiquewhite;
+    }
+
+    &:active {
+        box-shadow: inset 4px 4px 0px 0px #4AA52E;
+    }
+
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: content-box;
+    }
+
+    &:before {
+        top: -6px;
+        left: 0;
+        border-top: 6px black solid;
+        border-bottom: 6px black solid;
+    }
+
+    &:after {
+        left: -6px;
+        top: 0;
+        border-left: 6px black solid;
+        border-right: 6px black solid;
+    }
+  }
+  
+  
+  .button:hover {
+    background-color: #76c442; 
+  }
+  
+  
+  input[type="search"] {
+    z-index: 2;
+    background-color: #F2F2F2; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    width: 200px; 
+  }
+  
+  
+  Link {
+    text-decoration: none; 
+    margin-right: 10px; 
+  }
+  
+  
+  Link:hover {
+    color: #92CD41;
+  }

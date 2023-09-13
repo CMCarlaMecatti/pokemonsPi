@@ -1,0 +1,56 @@
+.container{
+background-color: rgb(199, 239, 144, 0.7);
+width: 200px;
+height: 250px;
+margin: 1%;
+padding: 10px;
+border-radius: 10px;
+padding-bottom: -5%;
+position: relative;
+
+}
+
+.container:hover {
+    transform: translateY(-20px); /* Mueve la tarjeta hacia arriba cuando el cursor está sobre ella */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.801); /* Aplica una sombra alrededor de la tarjeta */}
+
+  .content {
+    background-color: rgb(150, 201, 156);
+    padding: 6px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+  }   
+
+.background{
+    text-align: center;
+    background: linear-gradient(to right, rgb(150, 201, 156) ,rgb(104, 151, 109));
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}  
+.name{
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 4px;
+}
+.type{
+    background-color:#92CD41;
+    color: white;
+    padding: 1px;
+    border-radius: 5px;
+    width: 50%;
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+}
+

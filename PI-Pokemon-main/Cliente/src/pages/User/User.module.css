@@ -1,0 +1,144 @@
+.containerAll{
+    z-index: 1;
+    position: relative;
+    
+}
+
+.userContainer{
+    position: relative;
+    background-color: #76c442bb;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    height:fit-content ;
+    min-height: 200px;
+    padding-top: 7px;
+    padding-bottom: 25px;
+    margin-top: 100px;
+   margin-left: auto;
+  margin-right: auto;
+    width: 600px;
+    display: flex;
+}
+
+.buttonX{
+    margin-top: -5px;
+    margin-right: 150px;
+    z-index: 3;
+    position: relative;
+}
+
+.userInfo{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: medium;
+}
+.cardContainer{
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    overflow: auto;
+    display:flex ;
+    
+}
+
+.container{
+    background-color: rgb(199, 239, 144, 0.7);
+    width: 200px;
+    height: fit-content;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: -5%;
+    position: relative;
+    
+    }
+    .button {
+        background: #92CD41;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-size: 10px;
+        padding: 14px;
+        font-family: 'Press Start 2P', cursive;
+        text-decoration: none; 
+        color: white;
+        box-shadow: inset (-6px) (-6px) 0px 0px #1d5c0a;
+    
+        &:hover,
+        &:focus {
+            background: #4f9d1b;
+            box-shadow: inset (-9px) (-9px) 0px 0px #4AA52E;
+            color: antiquewhite;
+        }
+    
+        &:active {
+            box-shadow: inset 4px 4px 0px 0px #4AA52E;
+        }
+    
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            box-sizing: content-box;
+        }
+    
+        &:before {
+            top: -6px;
+            left: 0;
+            border-top: 6px black solid;
+            border-bottom: 6px black solid;
+        }
+    
+        &:after {
+            left: -6px;
+            top: 0;
+            border-left: 6px black solid;
+            border-right: 6px black solid;
+        }
+      }
+      
+      
+      .button:hover {
+        background-color: #76c442; 
+      }
+      
+    
+    .container:hover {
+        transform: translateY(-20px); /* Mueve la tarjeta hacia arriba cuando el cursor está sobre ella */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.801); /* Aplica una sombra alrededor de la tarjeta */}
+    
+      .content {
+        background-color: rgb(150, 201, 156);
+        padding: 6px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 8px;
+    
+      }   
+    
+    .background{
+        text-align: center;
+        background: linear-gradient(to right, rgb(150, 201, 156) ,rgb(104, 151, 109));
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        position: relative;
+        z-index: 1;
+    }  
+    .name{
+        text-align: center;
+        font-size: 12px;
+        font-weight: lighter;
+        padding: 4px;
+    }
+    
+    
+    .image{
+        width: 150px;
+        height: 150px;
+        position: relative;
+    }
+    
+    
